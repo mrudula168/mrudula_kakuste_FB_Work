@@ -4,8 +4,8 @@
 num = int(input('Enter three digit number:'))
 
 # digit seperation 
-d1 = num % 10  # 8
-num = num // 10  # 57
+d1 = num % 10
+num = num // 10
 
 d2 = num % 10
 num = num // 10

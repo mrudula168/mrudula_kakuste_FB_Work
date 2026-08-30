@@ -2,8 +2,8 @@
 
 #take input
 P = int(input('Enter Principle Amount:'))
-R = int(input('Enter Rate of interest:'))
-T = int(input('Enter Time:'))
+R = int(input('Enter Rate of interest in %:'))
+T = int(input('Enter Time in years:'))
 
 # calculate simple interest
 SI = (P*R*T)/100

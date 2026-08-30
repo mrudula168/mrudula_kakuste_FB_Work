@@ -1,4 +1,4 @@
-# swap 2 numbers using third variable
+# swap 2 numbers without using third variable
 # take input
 x = int(input('Enter x:'))
 y = int(input('Enter y:'))
