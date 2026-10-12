@@ -1,0 +1,11 @@
+#  calculate the m to the power n using recursion
+
+def sum(m, n):
+    if n == 0 :
+        return 1
+    return m * sum(m, n-1)
+
+m = int(input('Enter m:'))
+n = int(input('Enter n:'))
+res = sum(m, n)
+print(res)
